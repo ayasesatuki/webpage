@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Method</title>
+    <link rel="stylesheet" href="simulate.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="simulate_ui.js" defer></script> -->
+    <script src="nibun.js" defer></script>
+    <script src="nibunal.js" defer></script>
+    <script src="nibunkeisan.js" defer></script>
+    <!-- <script src="nibunIo.js" defer></script> -->
+    <script src="layout_ui2.js" defer></script>
+
+</head>
+<body>
+    <div id="cibtents">
+        <div id="panel" class="area">
+            <button type="button" id="nibun">2分法</button>
+            <button type="button" id = "nyuton">ニュートン法</button:type>
+        </div>
+        <div id="panel2">現在行われている解法をアルゴリズム法</div>
+        <div id="panel3">
+            <button type="button" id="zyukai">重解</button>
+            <button type="button" id="henkyoku">解の近くに変曲点</button>
+        </div>
+        <div id = "main">
+            <div id ="area1" class="area">
+                <p>関数の様子</p>
+                <canvas class="myCanvas" id = "line" width="400" height="400"></canavas>
+                <canvas class="myCanvas2" id="ziku" width="400" height="400"></canvas>
+                <canvas class="myCanvas3" id="nibun"width = "400" height="400"></canvas>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
