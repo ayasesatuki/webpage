@@ -1,0 +1,46 @@
+.red{
+    color:blueviolet;
+}
+
+.gray{
+    color: gray;
+}
+
+body{
+    background-color: #fffffc;
+}
+#main{
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.myCanvas{
+    position:absolute;
+    margin: 0;
+    padding:0;
+    left:0;
+    top: 0;
+    background-color: cadetblue;
+}
+
+.myCanvas2{
+    position:absolute;
+    margin: 0;
+    padding:0;
+    left:0;
+    top: 0;
+    background-color: gray;
+}
+
+.area{
+    margin-top: 10px;
+    float:left;
+    position: relative;
+    width: 400;
+    height: 300;
+}
+.panel{
+    float:left;
+    margin-right: auto;
+    width: 180px;
+}
